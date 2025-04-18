@@ -1,5 +1,5 @@
 function loadNavbar() {
-  fetch("navbar.html")
+  fetch("./navbar.html")
     .then((response) => response.text())
     .then((data) => {
       if (!localStorage.getItem("currentUser")) {
