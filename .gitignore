@@ -1,0 +1,63 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+# User-specific files
+.idea/
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# Ignore build results
+bin/
+obj/
+out/
+
+# ASP.NET Core specific
+wwwroot/
+appsettings*.json
+# Ignore secrets/config files that shouldn't be in version control
+secrets.json
+
+# Ignore the .NET Core runtime and SDK files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore compiled code
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Ignore npm and Node modules if present
+node_modules/
+
+# Ignore Visual Studio for Mac files
+.vscode/
+.idea/
+
+# Ignore Rider files (JetBrains IDE)
+.idea/
+
+# Ignore jetbrains-specific files
+*.iml
+*.iws
+
+# macOS specific
+.DS_Store
+
+# Linux specific
+*~
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by your editor or IDE
+*.swp
+*.swo
+
+# Ignore coverage files (if using tools like Istanbul for JS)
+coverage/
+
+# Ignore NuGet package files
+*.nupkg

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/images/people-exercise.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 122px;
+}
+.text-box h5 {
+  font-size: 60px;
+  margin: 10px 0 40px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+  line-height: 1.7;
+  transition: 0.4s ease;
+}
+h3 {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  size: 400px;
+  transition: 0.4s ease;
+}
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+.carousel-inner img {
+  width: 300px;
+  height: 300px;
+  border-radius: 55%;
+}
+.workouts h1 {
+  text-align: center;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-tab {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(59, 61, 65, 0.441) 0px 8px 24px;
+  max-width: 100%;
+  margin: auto;
+  transition: 0.4s ease;
+}
+.service-tab:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service-tab .ser-img img {
+  width: 100%;
+  height: auto;
+  max-width: 275px;
+  display: block;
+  margin: 0 auto;
+}
+
+.star-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.star {
+  font-size: 5px;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.star path {
+  fill: none;
+  stroke: #505050;
+  stroke-width: 1;
+  transition: stroke 0.2s ease;
+}
+
+.star.filled path {
+  fill: #ffd700;
+  stroke: #ffd700;
+}
+
+.service-tab {
+  position: relative;
+}
+
+.pageSectionBtn {
+  background-color: #2c2454;
+  color: #ffffff;
+  padding: 10px 30px;
+  margin-right: 4px;
+}
+
+.pageSectionBtn:hover {
+  background-color: #5f51a7;
+  color: #ffffff;
+}

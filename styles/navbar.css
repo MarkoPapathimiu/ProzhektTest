@@ -1,0 +1,53 @@
+#logInBtn,
+#signUpBtn {
+  background-color: #4682b4;
+}
+
+#logInBtn:hover,
+#signUpBtn:hover {
+  background-color: #3a306b;
+}
+
+.custom-card {
+  background: #fff;
+  border-radius: 20px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title {
+  font-size: 1.75rem;
+  color: #333;
+}
+
+input.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-login-card {
+  animation: slideUpFade 0.4s ease-out;
+}
