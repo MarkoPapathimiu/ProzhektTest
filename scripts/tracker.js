@@ -102,7 +102,7 @@ function updateProfile() {
     })
     .then((updatedUserData) => {
       saveCurrentUser(updatedUserData);
-      window.location.href = "/tracker.html";
+      window.location.href = "./tracker.html";
       alert("Profile updated successfully!");
     })
     .catch((error) => {
@@ -144,7 +144,7 @@ function deleteUser() {
       alert("Your account has been deleted.");
       localStorage.setItem("currentUser", "0");
       localStorage.removeItem("currentUserData");
-      window.location.href = "/logout.html";
+      window.location.href = "./logout.html";
     })
     .catch((error) => {
       console.error("Error deleting user:", error);
